@@ -1,0 +1,19 @@
+
+@media(min-width: 700px) {
+  .container {
+    width: 55%;
+  }
+  .full {
+    background: url("../img/bg.png") no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
