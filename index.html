@@ -29,10 +29,20 @@
 </head>
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=706023909433001&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <!-- Navigation -->
     <nav role="navigation">
         <ul>
+            <li>
+                <a href="/"><img src="img/dia-mundial.png" alt="Día Mundial Urticaria Crónica" title="Día Mundial Urticaria Crónica"></a>
+            </li>
             <li>
                 <a href="http://www.urticariacronica.org" target="_blank"><img src="img/logo-aauc-inv.png" alt="Asociación de Afectados de Urticaria Crónica" title="Asociación de Afectados de Urticaria Crónica"></a>
             </li>
@@ -64,6 +74,7 @@
         <p>
             Visítanos el día <strong>1 de octubre</strong> y podrás encontrar una sorpresa que estamos preparando para celebrar este I Día Mundial de la UC.
         </p>
+        <div class="fb-like" data-href="http://diamundial.urticariacronica.org" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
         <h5>Quedan:</h5>
         <table id="until_the_new_year_left" style="border: 0px;">
             <tbody>
@@ -80,10 +91,17 @@
         </table>
         <h3>#PonteEnMiPiel</h3>
 
+        <h4>Organiza:</h4>
+        <p>
+            <a target="_blank" href="http://www.urticariacronica.org"><img width="230" height="104" src="img/logo-asociacion-afectados-urticaria-cronica.png" alt="Asociación de Afectados de Urticaria Crónica"></a>
+        </p>
+
         <h5>Colaboradores:</h5>
         <p>
             <img class="wp-image-582 size-full" src="http://www.urticariacronica.org/wp-content/uploads/2014/09/logo_seaic.png" alt="logo_seaic" width="210" height="73">
+            <!--
             <img class="wp-image-583" src="http://www.urticariacronica.org/wp-content/uploads/2014/09/logo_aedv.jpg" alt="logo_aedv" width="73" height="73">
+        -->
         </p><p>
             <img class="wp-image-586 size-full" src="http://www.urticariacronica.org/wp-content/uploads/2014/09/logo_hmar2.jpg" alt="logo_hmar2" width="155" height="73">
             <img class="wp-image-587 size-full" src="http://www.urticariacronica.org/wp-content/uploads/2014/09/logo_fjd.png" alt="logo_fjd" width="258" height="73">
@@ -113,9 +131,8 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-42277084-1', 'auto');
+  ga('create', 'UA-42277084-2', 'auto');
   ga('send', 'pageview');
-  ga('_setDomainName','urticariacronica.org'),
 </script>
 </body>
 
