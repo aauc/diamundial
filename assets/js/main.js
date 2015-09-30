@@ -6,15 +6,6 @@
 
 (function($) {
 
-	var uday  = new Date(2015, 9, 1);
-    var remaining  = uday.getTime() - new Date().getTime();
-    var clock = $('.clock').FlipClock(remaining/1000, {
-    	countdown: true,
-    	language: "es",
-    	clockFace: "DailyCounter",
-    	showSeconds: true
-    });
-
 	var settings = {
 
 		// Full screen header?
