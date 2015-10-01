@@ -1,6 +1,14 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 
+  .share-buttons {
+    margin-top: 10px;
+    float: right;
+  }
+  .share-buttons>.fb-share-button>span {
+    vertical-align: baseline !important;
+  }
+
 /*
 	Overflow by HTML5 UP
 	html5up.net | @n33co

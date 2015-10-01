@@ -27,6 +27,14 @@
     <meta name="twitter:creator" content="@UrticariaCronic"/>
 	</head>
 	<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<!-- Header -->
 			<section id="header">
 				<header>
@@ -98,6 +106,11 @@
                 </header>
                 <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/JKD2OZnRj5E" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <!-- <div style="position: absolute; bottom:50%; right:10px; float: right; width:100px"> -->
+                <div class="share-buttons">
+                  <div class="fb-share-button" data-href="http://diamundial.urticariacronica.org/" data-layout="button_count"></div>
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-via="UrticariaCronic">Tweet</a>
                 </div>
             </article>
 
@@ -194,5 +207,6 @@
 		  ga('create', 'UA-42277084-2', 'auto');
 		  ga('send', 'pageview');
 		</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 	</body>
 </html>
